@@ -20,7 +20,7 @@ body{
 
 .header-img{
 	z-index: -1;
-	position: absolute;
+	position:absolute;
 }
 
 .S{
@@ -38,7 +38,7 @@ header a img{
 }
 header p{
 	font-size: 2.9em;
-	margin: 17% 8% 90px 0;
+	margin: 17% 8% 11% 15%;
 	color: #fff;
 	width:80%;
 	font-style: italic;
@@ -99,15 +99,9 @@ nav ul li :hover{
 }
 
 /*-------End of three big icons------*/
-	#beach{
+	.blank{
+		height: 30px;
 		clear: both;
-		margin-bottom: 20px;
-		height: 100%;
-	}
-	#city{
-		clear: both;
-		margin-bottom: 20px;
-		height: 100%;
 	}
 
 	.tours{
