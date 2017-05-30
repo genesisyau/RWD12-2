@@ -1,5 +1,6 @@
 *{
 	width: 100%;
+	height: auto;
 	margin: auto;
 	padding: 0;
 	font-family: "Century Gothic", sans-serif;
@@ -20,6 +21,13 @@ body{
 .header-img{
 	z-index: -1;
 	position: absolute;
+}
+
+.S{
+	display: none;
+}
+.M{
+	display:none;
 }
 header a img{
 	float: left;
@@ -93,6 +101,13 @@ nav ul li :hover{
 /*-------End of three big icons------*/
 	#beach{
 		clear: both;
+		margin-bottom: 20px;
+		height: 100%;
+	}
+	#city{
+		clear: both;
+		margin-bottom: 20px;
+		height: 100%;
 	}
 
 	.tours{
@@ -108,7 +123,7 @@ nav ul li :hover{
 		width: 90%;
 	}
 	h2{
-		width: 20%;
+		width: auto;
 		background-color: #fff;
 		opacity: 0.75;
 		font-size: 2em;
@@ -118,12 +133,12 @@ nav ul li :hover{
 	article{
 		background-color: #fff;
 		opacity: 0.75;
-		width: 35%;
+		width: 50%;
 		clear: both;
 		font-size: 1.7em;
 		float: right;
-		text-align: justify;
-		margin: 3.5% 2%;
+		text-align: left;
+		margin: 0 3.5% 1% 0;
 		padding: 1.5%;
 	}
 	button{
@@ -147,8 +162,6 @@ nav ul li :hover{
 	button:hover{
 	  background-color: #e53270;
 	  opacity:1;
-	  height: 55px;
-	  width: 185px;
 	}
 	#button:active{
 	  background-color: #e53270;
@@ -176,3 +189,25 @@ nav ul li :hover{
 	}
 
 /*------------End of footer------------*/
+/*------------START OF MEDIA QUERIES-------------*/
+@media screen and (max-width: 768px){
+	.S{
+		display: none;
+	}
+	.L{
+		display: none;
+	}
+	.M{
+		display: block;
+	}
+
+	article{
+		font-size: 1.5em;
+	}
+
+	footer p{
+		padding: 2.5% 0 0 2.5%;
+		width: auto;
+		float: left;
+	}
+}
