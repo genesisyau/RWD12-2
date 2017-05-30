@@ -2,73 +2,65 @@
 <html>
 <head>
   <title>Panama Tours</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
-  <section>
+  <div class="container">
     <header>
-      <img src="images/header.png" class="header-img" class="L">
-      <img src="images/header-m.png" class="header-img" class="M">
-      <img src="images/header-s.png" class-"header-img" class="S">
-
-      <div class="navigation">
-        <a href="#"><img src="images/logo.png"></a>
-        <img src="images/menu1.png" class="burger-menu">
-        <nav>
-          <ul>
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">TOURS</a></li>
-            <li><a href="#">EVENTS</a></li>
-            <li><a href="#">GALLERY</a></li>
-            <li><a href="#">CONTACT</a></li>
-          </ul>
-        </nav>
-    </div>
-      <p>The destination of your dreams
-        is just one click away</p>
+      <div class="header-img"><img src="images/header.png" class="L"></div>
+      <div class="header-img"><img src="images/header-m.png" class="M"></div>
+      <div class="header-img"><img src="images/header-s.png" class="S"></div>
+      <div class="logo"><a href="#"><img src="images/logo.png"></a></div>
+      <nav>
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">TOURS</a></li>
+          <li><a href="#">EVENTS</a></li>
+          <li><a href="#">GALLERY</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </ul>
+      </nav>
+      <p class="slogan">The destination of your dreams
+      is just one click away</p>
     </header>
-  </section>
-<!---End of header-------->
 
-    <section class="one-third" id="travel">
-      <td><a href="#"><img src="images/travel.png"></a></td>
-      <h3>Travel</h3>
-    </section>
-    <section class="one-third" id="enjoy">
-      <td><a href="#"><img src="images/enjoy.png"></a></td>
-      <h3>Enjoy</h3>
-    </section>
-    <section class="one-third" id="discover">
-      <td><a href="#"><img src="images/discover.png"></a></td>
-      <h3>Discover</h3>
-    </section>
 
-  <!---End of three big icons---------->
 
-  <section class="tours" id="city">
-    <img src="images/city.png" class="L">
-    <img src="images/city-m.png" class="M">
-    <img src="images/city-s.png" class="S">
-    <h2>CITY TOURS</h2>
-    <article>Discover the landmarks of Panama and
-    learn about its culture and people.</article>
-    <button href="#">Read more</button>
-  </section>
-  <div class="blank"></div>
-  <section class="tours" id="beach">
-    <img src="images/beach.png" class="L">
-    <img src="images/beach-m.png" class="M">
-    <img src="images/beach-s.png" class="S">
-    <h2>BEACH TOURS</h2>
-    <article>Relax in a Caribbean island and swim in one
-    of the clearest waters in the world.</article>
-    <button href="#">Read more</button>
-  </section>
-
-  <!---End of tours-------------->
+  <div class="bar">
+    <div class="images">
+    <a href="#"><img src="images/travel.png"></a>
+    <a href="#"><img src="images/enjoy.png"></a>
+    <a href="#"><img src="images/discover.png"></a>
+    </div>
+    <div class="subtitles">
+      <h4 class="travel">Travel</h4>
+      <h4 class="enjoy">Enjoy</h4>
+      <h4 class="discover">Discover</h4>
+    </div>
+  </div>
+  <div class="tours">
+      <div class="city">
+      <img src="images/city.png" class="L-tours">
+      <img src="images/city-m.png" class="M-tours">
+      <img src="images/city-s.png" class="S-tours">
+      <h2>CITY TOURS</h2>
+      <p>Discover the landmarks of Panama and
+      learn about its culture and people</p>
+      <button href="#">Read more</button>
+    </div>
+    <div class="beach">
+      <img src="images/beach.png" class="L-tours">
+      <img src="images/beach-m.png" class="M-tours">
+      <img src="images/beach-s.png" class="S-tours">
+      <h2>BEACH TOURS</h2>
+      <p>Relax in a Caribbean island and swim in one
+      of the clearest waters in the world</p>
+      <button href="#">Read more</button>
+    </div>
+  </div>
 
   <footer>
     <p>Rights Reserved &copy 2017</p>
@@ -78,8 +70,6 @@
       <a href="#"><img src="images/wc.png" class="footer-icon"></a>
     </div>
   </footer>
-
-  <!---End of footer-------------->
-
+</div>
 </body>
 </html>
