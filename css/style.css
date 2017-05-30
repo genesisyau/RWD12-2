@@ -268,8 +268,8 @@ footer img{
   height: 58px;
 }
 
-/*-------------------MEDIA QUERY------------------------*/
-@media screen and (max-width:768px) and (min-width:332px){
+/*===========================MEDIUM QUERY==========================*/
+@media screen and (max-width:768px) and (min-width:321px){
 	*{
 		width: 100%;
 		margin:auto;
@@ -347,7 +347,7 @@ img.L-tours{
 }
 img.M-tours{
 	display: inline-block;
-	width: 90%;
+	width: 691.2px;
 	margin: 0;
 }
 img.S-tours{
@@ -358,13 +358,13 @@ img.S-tours{
 }
 .M{
 	display:inline-block;
-	width: 100%;
+	width: 768px;
 }
 .S{
 	display:none;
 }
 .city,.beach{
-	width: 90%;
+	width: 691.2px;
 	height: 200px;
 	margin: 40px 30px;
 }
@@ -406,7 +406,7 @@ button:hover{
 /*--------END OF MAIN CONTENT---------*/
 
 	footer{
-	  width: 100%;
+	  width: 768px;
 	  height: 90px;
 	  text-align: left;
 	  float: left;
@@ -419,7 +419,7 @@ button:hover{
 	}
 
 	.social{
-	  padding-left: 20%;
+	  padding-left: 153.6px;
 	  padding-top: 15px;
 		float: right;
 		width: auto;
@@ -427,3 +427,181 @@ button:hover{
 
 /*--------END OF FOOTER----------*/
 }
+
+/*=================================SMALL QUERY=========================*/
+	@media screen and (max-width:320px){
+		*{width: 100%;}
+
+		body,html{max-width:320px;}
+
+		.container{
+			width: 320px;
+			height:auto;
+		}
+
+		.images{
+			height:50px;
+		}
+		.slogan{
+			font-size:15px;
+			margin: 75px 20px 28.5px 20px;
+			width: 225px;
+		}
+
+		a#burger{
+			background: url("menu1.png") no-repeat;
+			width: 36px;
+			height: 41px;
+			float: right;
+			margin:0;
+		}
+
+		.logo img{
+			width:40%;
+			display: block;
+			margin: auto;
+			padding-left:98px;
+			padding-right: 58px;
+			background-color: #fff;
+			opacity: 0.8;
+		}
+
+		nav{
+			width: auto;
+			height: auto;
+		}
+
+		nav ul, nav:active ul{
+			display:none;
+		}
+		.L{
+			display:none;
+		}
+		.M{
+			display:none;
+		}
+		.S{
+			display:inline-block;
+			width: 320px;
+		}
+
+	/*-------END OF HEADER--------*/
+
+	.bar img{
+		width: 40px;
+		height: 40px;
+		padding: 5px 20px;
+	}
+	.discover{
+	  padding-left:9%;
+	  padding-right: 2%;
+	}
+
+	.travel{
+	  padding-right: 9%;
+	  padding-left:4%;
+	}
+	.enjoy{
+	  padding-right: 6%;
+	  padding-left: 7%;
+	}
+
+	.bar h4 {
+	    font-size: 10px;
+	}
+
+	/*--------------END OF BAR----------------*/
+
+	img.L-tours{
+		display: none;
+	}
+	img.M-tours{
+		display: none;
+	}
+	img.S-tours{
+		display:inline-block;
+		width: 320px;
+		margin: 0;
+	}
+	.city,.beach{
+		width:320px;
+		height: auto;
+		margin:0;
+	}
+	.city h2,.beach h2{
+		margin: auto;
+		background-color:transparent;
+		opacity:1;
+		font-size: 50px;
+		text-align: center;
+		color: #fff;
+		height: 148px;
+		clear: both;
+	}
+	h2{
+		padding: 0;
+	}
+	.beach h2{
+		margin-top: 150px;
+		padding-top: 10px;
+		height: 138px;
+	}
+	.tours p{
+	  width: 310px;
+	  font-size: 18px;
+	  margin:0 0 10px 0;
+		padding: 5px;
+		text-align: center;
+		opacity: 0.8;
+		clear: both;
+	}
+.tours{
+	height: 595px;
+}
+	button{
+	  border-radius: 12px;
+	  font-family: "Century Gothic";
+	  font-size: 18px;
+	  height: 35px;
+	  width: 150px;
+	  margin: auto;
+		clear: both;
+		margin: 10px 85px;
+	}
+
+	button:hover{
+		opacity:1;
+	}
+
+
+/*------------------END OF MAIN CONTENT------------*/
+footer{
+	width: 320px;
+	height: 60px;
+	text-align: center;
+}
+
+footer p{
+	font-size: 12px;
+	text-align: center;
+	padding: 5px 0 0 0 ;
+}
+
+.social{
+	padding-left: 95.5px;
+  padding-right: 95.5px;
+	padding-top: 0;
+	float: right;
+	width: auto;
+	margin: auto;
+}
+
+.social img{
+	width:30px;
+	height:30px;
+	padding: 5px;
+	clear: both;
+}
+
+/*----------------END OF FOOTER----------------*/
+	}
