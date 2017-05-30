@@ -1,3 +1,6 @@
+*{
+	width: auto;
+}
 html{
 	background-color: #fce7d8;
 }
@@ -131,9 +134,7 @@ img.S-tours{
 }
 
 .bar img:hover{
-  opacity: 0.8;
-  width: 115px;
-  height: 115px;
+  opacity: 1;
 }
 
 .subtitles{
@@ -228,9 +229,7 @@ button{
 
 button:hover{
   background-color: #e53270;
-  opacity:0.8;
-  height: 55px;
-  width: 185px;
+  opacity:1;
 }
 
 #button:active{
@@ -269,7 +268,7 @@ footer img{
 }
 
 /*===========================MEDIUM QUERY==========================*/
-@media screen and (max-width:768px) and (min-width:321px){
+@media only screen and (min-width:321px) and (max-width:780px){
 	*{
 		width: 100%;
 		margin:auto;
@@ -398,8 +397,6 @@ button{
 
 button:hover{
 	opacity:1;
-  height: 40px;
-  width: 150px;
 }
 
 
@@ -429,7 +426,7 @@ button:hover{
 }
 
 /*=================================SMALL QUERY=========================*/
-	@media screen and (max-width:320px){
+	@media only screen and (max-width:320px){
 		*{width: 100%;}
 
 		body,html{max-width:320px;}
@@ -473,7 +470,29 @@ button:hover{
 
 		nav ul, nav:active ul{
 			display:none;
+			z-index: 1000;
+			position: absolute;
+			padding: 20px;
+			background: #fff;
+			margin-right: 20px;
+			margin-top: 40px;
+			border: 1px solid #fff;
+			border-radius: 2px 0 2px 2px;
+			width: 50%;
+			float: left;
+			clear: right;
 		}
+		nav ul li a{
+		  font-size: 15px;
+			display: block;
+			padding: 0 0 10px 0;
+		}
+
+		nav:hover ul{
+			display: block;
+		}
+
+
 		.L{
 			display:none;
 		}
