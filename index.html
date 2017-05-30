@@ -2,62 +2,65 @@
 <html>
 <head>
   <title>Panama Tours</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <div class="container">
+  <section>
     <header>
-      <div class="header-img"><img src="images/header.png"></div>
-      <div class="logo"><a href="#"><img src="images/logo.png"></a></div>
-      <nav>
-        <ul>
-          <li><a href="#">HOME</a></li>
-          <li><a href="#">ABOUT</a></li>
-          <li><a href="#">TOURS</a></li>
-          <li><a href="#">EVENTS</a></li>
-          <li><a href="#">GALLERY</a></li>
-          <li><a href="#">CONTACT</a></li>
-        </ul>
-      </nav>
-      <p class="slogan">The destination of your dreams
-      is just one click away</p>
+      <img src="images/header.png" class="header-img">
+      <div class="navigation">
+        <a href="#"><img src="images/logo.png"></a>
+        <img src="images/menu1.png" class="burger-menu">
+        <nav>
+          <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">TOURS</a></li>
+            <li><a href="#">EVENTS</a></li>
+            <li><a href="#">GALLERY</a></li>
+            <li><a href="#">CONTACT</a></li>
+          </ul>
+        </nav>
+    </div>
+      <p>The destination of your dreams
+        is just one click away</p>
     </header>
+  </section>
+<!---End of header-------->
 
+    <section class="one-third" id="travel">
+      <td><a href="#"><img src="images/travel.png"></a></td>
+      <h3>Travel</h3>
+    </section>
+    <section class="one-third" id="enjoy">
+      <td><a href="#"><img src="images/enjoy.png"></a></td>
+      <h3>Enjoy</h3>
+    </section>
+    <section class="one-third" id="discover">
+      <td><a href="#"><img src="images/discover.png"></a></td>
+      <h3>Discover</h3>
+    </section>
 
+  <!---End of three big icons---------->
 
-  <div class="bar">
-    <div class="images">
-    <a href="#"><img src="images/travel.png"></a>
-    <a href="#"><img src="images/enjoy.png"></a>
-    <a href="#">  <img src="images/discover.png"></a>
-    </div>
-    <div class="subtitles">
-      <h4 class="travel">Travel</h4>
-      <h4 class="enjoy">Enjoy</h4>
-      <h4 class="discover">Discover</h4>
-    </div>
-  </div>
+  <section class="tours" id="city">
+    <img src="images/city.png">
+    <h2>CITY TOURS</h2>
+    <article>Discover the landmarks of Panama and
+    learn about its culture and people.</article>
+    <button href="#">Read more</button>
+  </section>
+  <section class="tours" id="beach">
+    <img src="images/beach.png">
+    <h2>BEACH TOURS</h2>
+    <article>Relax in a Caribbean island and swim in one
+    of the clearest waters in the world.</article>
+    <button href="#">Read more</button>
+  </section>
 
-
-
-  <div class="tours">
-      <div class="city">
-      <img src="images/city.png">
-      <h2>CITY TOURS</h2>
-      <p>Discover the landmarks of Panama and
-      learn about its culture and people</p>
-      <button href="#">Read more</button>
-    </div>
-    <div class="beach">
-      <img src="images/beach.png">
-      <h2>BEACH TOURS</h2>
-      <p>Relax in a Caribbean island and swim in one
-      of the clearest waters in the world</p>
-      <button href="#">Read more</button>
-    </div>
-  </div>
-
+  <!---End of tours-------------->
 
   <footer>
     <p>Rights Reserved &copy 2017</p>
@@ -67,6 +70,8 @@
       <a href="#"><img src="images/wc.png" class="footer-icon"></a>
     </div>
   </footer>
-</div>
+
+  <!---End of footer-------------->
+
 </body>
 </html>
